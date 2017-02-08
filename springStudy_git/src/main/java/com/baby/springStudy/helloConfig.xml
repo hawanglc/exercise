@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+"http://www.springfremework.org/dtd/spring-beans.dtd">
+<beans>
+	<bean id="Hello" class="com.baby.springStudy.Hello" >
+		<property name="msg">
+			<value>Hello wanglc2</value>
+		</property>
+		<property name = "date">
+		<ref bean="date" />
+		</property>
+	</bean>
+	<bean id = "date" class = "java.util.Date"/>
+</beans>
