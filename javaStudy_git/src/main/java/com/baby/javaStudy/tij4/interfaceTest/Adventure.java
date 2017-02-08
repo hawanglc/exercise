@@ -1,15 +1,15 @@
 package com.baby.javaStudy.tij4.interfaceTest;
 
 interface CanFly {
-	void fly();
+	public void fly();
 }
 
 interface CanFight {
-	void fight();
+	public void fight();
 }
 
 interface CanSwim {
-	void swim();
+	public void swim();
 }
 
 class ActionCharacter {
@@ -20,15 +20,16 @@ class ActionCharacter {
 
 class Hero extends ActionCharacter implements CanFight, CanFly, CanSwim {
 
-	@Override
 	public void swim() {
+		// TODO Auto-generated method stub
 		System.out.println("public void swim()\t" + this);
 	}
 
-	@Override
 	public void fly() {
+		// TODO Auto-generated method stub
 		System.out.println("public void fly()\t" + this);
 	}
+
 }
 
 public class Adventure {

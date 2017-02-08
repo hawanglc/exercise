@@ -8,7 +8,6 @@ interface Movement {
 
 class Fish implements Movement {
 
-	@Override
 	public void move() {
 		System.out.println(this.getClass().getSimpleName() + "\t can swim using tail");
 	}
@@ -21,7 +20,6 @@ class Bird implements Movement {
 		System.out.println("public void eat() \t" + this);
 	}
 
-	@Override
 	public void move() {
 		System.out.println(this.getClass().getSimpleName()+"\tcan fly using wings");
 	}
