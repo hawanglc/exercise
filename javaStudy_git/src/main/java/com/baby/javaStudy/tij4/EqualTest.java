@@ -1,6 +1,6 @@
 package com.baby.javaStudy.tij4;
 
-//定义一个新的类。不去覆盖Object.java中的public boolean equals(Object obj)方法。
+// 定义一个新的类。不去覆盖Object.java中的public boolean equals(Object obj)方法。
 class IntValue {
 
 	public IntValue(int i) {
@@ -11,7 +11,7 @@ class IntValue {
 	int i;
 }
 
-//定义一个新的类。重新定义public boolean equals(Object obj)。
+// 定义一个新的类。重新定义public boolean equals(Object obj)。
 class CharValue {
 	char c;
 
